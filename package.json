@@ -1,0 +1,22 @@
+{
+  "name":"api-boiler",
+  "version":"0.0.1",
+  "dependencies":{
+    "coffee-script":"*",
+    "express":"*",
+    "mongoose": "*",
+    "goosestrap": "*",
+    "seedling": "*",
+    "crudify": "*",
+    "async": "*",
+    "request": "*"
+  },
+  "devDependencies": {
+  },
+  "scripts":{
+    "start":"coffee server/start.coffee"
+  },
+  "engines": {
+    "node": ">=0.6"
+  }
+}
