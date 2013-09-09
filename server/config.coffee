@@ -4,4 +4,4 @@ module.exports =
   db: 
     url: process.env.MONGODB or "mongodb://localhost/apitest"
   paths:
-    models: resolve './server/models'
+    models: resolve './server/models/*'
