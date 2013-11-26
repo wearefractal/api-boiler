@@ -4,8 +4,8 @@
     "uri": "mongodb://localhost:27017/api_boiler_dev"
   },
   "twitter": {
-    "consumerKey": "",
-    "secretKey": "",
+    "consumerKey": "Y2kmE29xYLvE56U89DCBug",
+    "secretKey": "tKZ5DaxCK3t46HUGOezmUMMABcPwkPu2krnOgGz8",
     "callback": "http://localhost:8080/auth/twitter/callback"
   }
 }
