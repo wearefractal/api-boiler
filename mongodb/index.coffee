@@ -14,6 +14,16 @@ db.loadModel = (k) ->
     @updated_at = new Date()
     next()
 
+  models[k].set 'toJSON',
+    getters: true
+    virtuals: true
+
+  models[k].set 'toObject',
+    getters: true
+    virtuals: true
+
+  models[k].set 'strict', true
+
   # dont recreate indexes in prod
   if process.env.NODE_ENV is "production"
     models[k].set "autoIndex", false

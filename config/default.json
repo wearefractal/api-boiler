@@ -1,3 +1,4 @@
 {
-  "cookieSecret": "keyboardcat"
+  "cookieSecret": "keyboardcat",
+  "apis": ["User", "Item"]
 }

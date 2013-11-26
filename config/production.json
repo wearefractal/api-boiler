@@ -2,5 +2,10 @@
   "port": 80,
   "mongodb": {
     "uri": "mongodb://localhost:27017/api_boiler"
+  },
+  "twitter": {
+    "consumerKey":"",
+    "secretKey":"",
+    "callback":"http://site.com/auth/twitter/callback"
   }
 }

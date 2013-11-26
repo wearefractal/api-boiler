@@ -5,6 +5,8 @@
     "coffee-script":"*",
 
     "crudify": "*",
+    "passport": "*",
+    "passport-twitter": "*",
     "express":"*",
     "mongoose": "*",
     "goosestrap": "*",
