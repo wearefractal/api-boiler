@@ -3,18 +3,27 @@
   "version":"0.0.1",
   "dependencies":{
     "coffee-script":"*",
+
+    "crudify": "*",
     "express":"*",
     "mongoose": "*",
     "goosestrap": "*",
-    "seedling": "*",
-    "crudify": "*",
+
+    "config-chain": "*",
+    "winston": "*",
+    "optimist": "*",
     "async": "*",
-    "request": "*"
+    "require-dir": "*",
+    "request": "*",
+    "try-parse":"*"
   },
   "devDependencies": {
+    "mocha":"*",
+    "should":"*"
   },
   "scripts":{
-    "start":"coffee server/start.coffee"
+    "test": "NODE_ENV=testing mocha --reporter spec",
+    "start":"coffee start.coffee"
   },
   "engines": {
     "node": ">=0.6"
