@@ -15,4 +15,10 @@ app.use express.session
 app.use passport.initialize()
 app.use passport.session()
 
+if process.env.NODE_ENV is "production"
+  app.disable "verbose errors"
+
+if process.env.NODE_ENV is "development"
+  app.use express.logger "dev"
+
 module.exports = app
